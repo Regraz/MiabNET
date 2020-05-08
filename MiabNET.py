@@ -125,21 +125,6 @@ if __name__ == '__main__':
     for tick in range(tick_limit):
         if tick == 0:
             nodeList[1].pkt_queue.append(8)
-            nodeList[4].pkt_queue.append(7)
-            nodeList[3].pkt_queue.append(6)
-            nodeList[2].pkt_queue.append(8)
-            nodeList[1].pkt_queue.append(8)
-            nodeList[4].pkt_queue.append(7)
-            nodeList[3].pkt_queue.append(6)
-            nodeList[2].pkt_queue.append(3)
-            nodeList[1].pkt_queue.append(8)
-            nodeList[4].pkt_queue.append(7)
-            nodeList[3].pkt_queue.append(6)
-            nodeList[2].pkt_queue.append(4)
-            nodeList[1].pkt_queue.append(8)
-            nodeList[4].pkt_queue.append(7)
-            nodeList[3].pkt_queue.append(6)
-            nodeList[2].pkt_queue.append(8)
         for each_node in nodeList:
             each_node.fsm()
   
